@@ -14,27 +14,52 @@
 
   <main>
     <section id="intro">
-      <p>Explore o site! Clique em links, imagens e áreas misteriosas para encontrar pistas sobre o tesouro.</p>
+      <p>Explore o site! Clique em palavras e imagens misteriosas para encontrar pistas sobre o tesouro.</p>
       <button id="startBtn">Começar a exploração</button>
     </section>
 
+    <!-- Dica 1 -->
     <section id="area1" class="hidden">
       <h2>Laboratório de Informática</h2>
-      <p>Aqui todos aprendem a usar computadores! Talvez haja uma pista escondida...</p>
+      <p>Aqui todos aprendem a usar computadores! Talvez haja uma pista escondida nesta <span class="word" id="word1">imagem</span>...</p>
       <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Computer_lab_in_school.jpg" 
            alt="Laboratório de informática" class="clickable" id="clue1">
     </section>
 
+    <!-- Dica 2 -->
     <section id="area2" class="hidden">
       <h2>Biblioteca Digital</h2>
-      <p>O conhecimento está ao alcance de todos! Encontre a chave para o tesouro.</p>
-      <p id="hiddenText" class="hidden">🔑 Pista: Procure onde a conexão é feita de forma <em>sem fio</em>.</p>
+      <p>O conhecimento está ao alcance de todos! Clique na palavra <span class="word" id="word2">conhecimento</span> para continuar.</p>
+      <p id="hiddenText2" class="hidden">📘 Pista 2: Onde será que há conexão <em>sem fio</em>?</p>
     </section>
 
+    <!-- Dica 3 -->
     <section id="area3" class="hidden">
       <h2>Espaço Wi-Fi Comunitário</h2>
-      <p>As pessoas se reúnem aqui para aprender, criar e se conectar. Algo brilha sob a mesa...</p>
-      <div id="treasure" class="hidden">🎉 Você encontrou o Tesouro da Inclusão Digital! 🎉  
+      <p>As pessoas se reúnem aqui para aprender, criar e se conectar. Clique na palavra <span class="word" id="word3">mesa</span> para investigar.</p>
+      <p id="hiddenText3" class="hidden">💡 Pista 3: Às vezes, o aprendizado acontece também de forma <em>móvel</em>.</p>
+    </section>
+
+    <!-- Dica 4 -->
+    <section id="area4" class="hidden">
+      <h2>Sala de Cursos Online</h2>
+      <p>Há cursos gratuitos acontecendo aqui. Clique em <span class="word" id="word4">gratuitos</span> para a próxima dica!</p>
+      <p id="hiddenText4" class="hidden">🎓 Pista 4: Onde o futuro da tecnologia é desenvolvido...</p>
+    </section>
+
+    <!-- Dica 5 -->
+    <section id="area5" class="hidden">
+      <h2>Centro de Inovação</h2>
+      <p>Robôs, impressoras 3D e ideias brilhantes! Clique em <span class="word" id="word5">robôs</span> para continuar.</p>
+      <p id="hiddenText5" class="hidden">🤖 Pista 5: Falta pouco! O tesouro está onde tudo começou...</p>
+    </section>
+
+    <!-- Dica 6 (Tesouro) -->
+    <section id="area6" class="hidden">
+      <h2>Retorno ao Início</h2>
+      <p>Você voltou ao início, mas algo mudou. Clique em <span class="word" id="word6">tesouro</span> para revelar o segredo!</p>
+      <div id="treasure" class="hidden">
+        🎉 Você encontrou o Tesouro da Inclusão Digital! 🎉  
         <p>O verdadeiro tesouro é garantir que todos tenham acesso à tecnologia e à informação.</p>
       </div>
     </section>
