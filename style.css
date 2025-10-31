@@ -54,18 +54,20 @@ button:hover {
   display: none;
 }
 
-/* Destaque para as palavras clicáveis */
-.word {
-  color: #007acc;
-  font-weight: bold;
+/* 🔍 Palavras escondidas — só aparecem se o jogador passar o mouse */
+.hidden-word {
+  color: transparent;
   cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.hidden-word:hover {
+  color: #007acc;
   text-decoration: underline;
 }
 
-.word:hover {
-  color: #005b96;
-}
-
+/* Tesouro */
 #treasure {
   background-color: #d4edda;
   color: #155724;
