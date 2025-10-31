@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caça ao Tesouro Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Caça ao Tesouro Digital</h1>
+    <p>Ajude a promover a <strong>inclusão digital</strong> encontrando o tesouro escondido!</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p>Explore o site! Clique em links, imagens e áreas misteriosas para encontrar pistas sobre o tesouro.</p>
+      <button id="startBtn">Começar a exploração</button>
+    </section>
+
+    <section id="area1" class="hidden">
+      <h2>Laboratório de Informática</h2>
+      <p>Aqui todos aprendem a usar computadores! Talvez haja uma pista escondida...</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Computer_lab_in_school.jpg" 
+           alt="Laboratório de informática" class="clickable" id="clue1">
+    </section>
+
+    <section id="area2" class="hidden">
+      <h2>Biblioteca Digital</h2>
+      <p>O conhecimento está ao alcance de todos! Encontre a chave para o tesouro.</p>
+      <p id="hiddenText" class="hidden">🔑 Pista: Procure onde a conexão é feita de forma <em>sem fio</em>.</p>
+    </section>
+
+    <section id="area3" class="hidden">
+      <h2>Espaço Wi-Fi Comunitário</h2>
+      <p>As pessoas se reúnem aqui para aprender, criar e se conectar. Algo brilha sob a mesa...</p>
+      <div id="treasure" class="hidden">🎉 Você encontrou o Tesouro da Inclusão Digital! 🎉  
+        <p>O verdadeiro tesouro é garantir que todos tenham acesso à tecnologia e à informação.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido para promover a inclusão digital 🌍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
