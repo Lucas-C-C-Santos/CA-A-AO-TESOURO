@@ -54,6 +54,18 @@ button:hover {
   display: none;
 }
 
+/* Destaque para as palavras clicáveis */
+.word {
+  color: #007acc;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.word:hover {
+  color: #005b96;
+}
+
 #treasure {
   background-color: #d4edda;
   color: #155724;
